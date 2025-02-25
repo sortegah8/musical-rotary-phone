@@ -1,1 +1,34 @@
-
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peluquería Elegance</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; text-align: center; }
+        header { background: #f4a261; padding: 20px; color: white; font-size: 24px; }
+        .container { padding: 20px; }
+        .services, .contact { margin: 20px 0; }
+        .button { background: #2a9d8f; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; }
+        .button:hover { background: #21867a; }
+        footer { background: #264653; color: white; padding: 10px; margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <header>Peluquería Elegance - Tu estilo, nuestra pasión</header>
+    <div class="container">
+        <section class="services">
+            <h2>Nuestros Servicios</h2>
+            <p>Cortes de cabello | Tintes | Peinados | Tratamientos Capilares</p>
+        </section>
+        <section class="contact">
+            <h2>Reserva tu cita</h2>
+            <p>Contáctanos al <strong>+34 600 123 456</strong> o haz clic abajo:</p>
+            <a href="#" class="button">Reservar ahora</a>
+        </section>
+    </div>
+    <footer>
+        <p>📍 Calle Ejemplo 123, Madrid | ⏰ Lunes-Sábado: 10:00 - 20:00</p>
+    </footer>
+</body>
+</html>
